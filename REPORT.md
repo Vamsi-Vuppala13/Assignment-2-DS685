@@ -29,9 +29,7 @@ The simulation used geometric placeholder objects for the world assets. Because 
 | Robot Platform | TurtleBot simulation |
 | ROS Distribution | ROS 2 Jazzy |
 
-## Detection Event Topic Pattern
-
-The detection events followed the required Zenoh key structure:
-
-```text
-maze/<robot_id>/<run_id>/detections/v1/<event_id>
+## Reproducibility
+1. Start demo-world: docker compose up demo-world
+2. Start ingest worker: python3 ingest_worker.py
+3. Start detector: python3 detector_node.py
