@@ -1,4 +1,4 @@
-World Assets — Assignment 2
+**World Assets — Assignment 2**
 
 For Assignment 2, I designed a simulation world that includes three benches with object assets placed on top of them. The objects were selected to match common COCO-style detection classes so they can be used for camera-based object detection during the robot simulation.
 
